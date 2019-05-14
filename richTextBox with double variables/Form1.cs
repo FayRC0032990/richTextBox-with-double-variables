@@ -22,8 +22,8 @@ namespace richTextBox_with_double_variables
             richTextBox1.AppendText(pi.ToString("N15") + "\n");
             richTextBox1.AppendText(c.ToString("0") + "\n");
             richTextBox1.AppendText(c.ToString("N0") + "\n");
-            
-
+            richTextBox1.AppendText(c.ToString("0.000000000000000E0") + "\n");
+            richTextBox1.AppendText(c.ToString("0.00E0") + "\n");
 
         }
     }
